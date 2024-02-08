@@ -30,6 +30,8 @@
                     <img src="{{asset('uploades/'.$val->image)}}" alt="" class="img-fluid">
                     <div class="content">
                         <h4 class="mt-4 mb-2 title-color">{{$val->name}}</h4>
+                        <p class="mt-4 mb-2 title-color">{{illuminate\Support\Str::limit($val->describtion,100,'...')}}</p>
+                        <a href="{{url('service/detail/'.$val->id)}}" class="nav-link btn btn-sm btn-danger">Read More</a>
                         
                     </div>
                 </div>

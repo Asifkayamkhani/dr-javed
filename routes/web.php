@@ -34,6 +34,7 @@ Route::get('Appointment',[FrontedController::class,'appointment']);
 Route::get('Contact',[FrontedController::class,'contact']);
 Route::get('Confirmation',[FrontedController::class,'confirmation']);
 Route::get('profile',[FrontedController::class,'profile']);
+Route::get('service/detail/{id}',[FrontedController::class,'details']);
 
 
 
@@ -111,15 +112,10 @@ Route::get('services-edit/{id}',[ServiceController::class,'services_edit']);
 Route::post('services-edit/{id}',[ServiceController::class,'edit_update']);
 
 
-// banner web 
-Route::get('bannerus',[BannerController::class,'bannerus']);
-Route::post('bannerus',[BannerController::class,'save_banner']);
-
+// banner web
 Route::get('banner-table',[BannerController::class,'b_table']);
 
 Route::get('banner-status/{id}',[BannerController::class,'b_status']);
-
-Route::get('banner-delete/{id}',[BannerController::class,'b_delete']);
 
 Route::get('banner-edit/{id}',[BannerController::class,'b_edit']);
 Route::post('banner-edit/{id}',[BannerController::class,'b_save']);

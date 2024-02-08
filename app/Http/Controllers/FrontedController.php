@@ -43,4 +43,9 @@ class FrontedController extends Controller
       $data=Backend::where('user_ip',$clientIP)->select('name','date','time','status')->orderBy('id','desc')->get();
       return view('fronted.profile',compact('data'));
      }
+
+     public function details($id){
+      $data=Service::find($id);
+      return view('fronted.sdetail',compact('data'));
+     }
 }

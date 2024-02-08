@@ -2,22 +2,12 @@
 @section('content')
 <div class="container">
     <div class="row">
-        <div class="col-sm-10"></div>
-        <div class="col-sm-2">
-            <a href="{{url('bannerus')}}" class="btn btn-outline-info mt-3">New</a>
-        </div>
+
 
         <div class="col-sm-2"></div>
         <div class="col-sm-10 mt-3">
-            <div class="text-center">
-                @if(session()->has('success'))
-                <div class="alert alert-dark">
-                    {{session('success')}}
-                </div>
-                @endif
-            </div>
-            <div class="table-responsive">
 
+            <div class="table-responsive">
                 <table class="table  table-striped table-bordered" style="width:100%" id="example">
                     <thead>
                         <tr>
@@ -51,7 +41,6 @@
                                 @endif
                             </td>
                             <td class="d-flex">
-                                <p data-id="{{url('banner-delete/'.$val->id)}}" class="btn btn-sm btn-danger delete">Delete</p>
                                 <p>
                                     <a href="{{url('banner-edit/'.$val->id)}}"
                                         class="btn btn-sm btn-secondary ml-2">Edit</a>

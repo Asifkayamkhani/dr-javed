@@ -1,100 +1,161 @@
-/*=== MEDIA QUERY ===*/
-/*
-Theme Name: Medic
-Author: Themefisher
-Author URI: https://themefisher.com/
-Description: Medicle Template
-Version: 1.0.0
-
-*/
 @import url("https://fonts.googleapis.com/css?family=Exo:500,600,700|Roboto&amp;display=swap");
 
 
 
-@media screen and (max-width: 667px) and (min-device-width: 375px)
-{
-  .col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto 
-   
-{
-   
+@media screen and (max-width: 667px) and (min-device-width: 375px) {
+
+  .col,
+  .col-1,
+  .col-10,
+  .col-11,
+  .col-12,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-auto,
+  .col-lg,
+  .col-lg-1,
+  .col-lg-10,
+  .col-lg-11,
+  .col-lg-12,
+  .col-lg-2,
+  .col-lg-3,
+  .col-lg-4,
+  .col-lg-5,
+  .col-lg-6,
+  .col-lg-7,
+  .col-lg-8,
+  .col-lg-9,
+  .col-lg-auto,
+  .col-md,
+  .col-md-1,
+  .col-md-10,
+  .col-md-11,
+  .col-md-12,
+  .col-md-2,
+  .col-md-3,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-md-auto,
+  .col-sm,
+  .col-sm-1,
+  .col-sm-10,
+  .col-sm-11,
+  .col-sm-12,
+  .col-sm-2,
+  .col-sm-3,
+  .col-sm-4,
+  .col-sm-5,
+  .col-sm-6,
+  .col-sm-7,
+  .col-sm-8,
+  .col-sm-9,
+  .col-sm-auto,
+  .col-xl,
+  .col-xl-1,
+  .col-xl-10,
+  .col-xl-11,
+  .col-xl-12,
+  .col-xl-2,
+  .col-xl-3,
+  .col-xl-4,
+  .col-xl-5,
+  .col-xl-6,
+  .col-xl-7,
+  .col-xl-8,
+  .col-xl-9,
+  .col-xl-auto {
+
     padding-right: 15px !important;
     padding-left: 10px !important;
-}
-/* .banner .block {
-  padding: 10px 0px 160px !important;
-} */
+  }
 
-/* .aasi {
-  padding: 0px 0 !important;
-} */
+  .aasi1 {
+    padding: 30px 0 !important;
+  }
 
+  .aasi3 {
+    padding: 30px 0 !important;
+  }
 
+  .aasi4 {
+    font-size: 30px !important;
+  }
 
-.aasi1 {
-  padding: 30px 0 !important;
-}
-.aasi3{
-  padding: 30px 0 !important;
-}
-.aasi4{
-  font-size: 30px !important;
-}
-.aasi5{
-  padding: 20px 0 !important;
-}
-.section-title {
-  margin-bottom: 30px !important;
-}
-.appoinment-content .emergency {
-  right: 15px !important;
-  bottom: 15px !important;
-  padding: 10px !important;
-}
-.appoinment-content img {
-  width: 100% !important;
-}
+  .aasi5 {
+    padding: 20px 0 !important;
+  }
+
+  .section-title {
+    margin-bottom: 30px !important;
+  }
+
+  .appoinment-content .emergency {
+    right: 15px !important;
+    bottom: 15px !important;
+    padding: 10px !important;
+  }
+
+  .appoinment-content img {
+    width: 100% !important;
+  }
 
 
 }
-@media (max-width: 768px){
-.banner .block h1 {
+
+@media (max-width: 768px) {
+  .banner .block h1 {
     font-size: 37px !important;
     line-height: 48px !important;
     letter-spacing: -0.2px !important;
-}
+  }
 }
 
-/* banner img set photo  */
-
-/* @media (max-width: 400px)
-{
-  .banner {
-    min-height: 211px !important;
+.aasi6 {
+  margin-left: 45% !important;
 }
-.feature-item{
-  margin-top: 59px !important; 
-}
-} */
 
-
-.aasi6{
-  margin-left:45% !important  ;
-}
-.aasi7:hover{
-  color:red !important; 
+.aasi7:hover {
+  color: red !important;
   font-size: 15px !important;
 }
-.aasi10 span{
+
+.aasi10 span {
   margin-left: 10px !important;
 }
-.aasi10 i{
+
+.aasi10 i {
   font-size: 22px;
   color: blue;
 }
 
-/* .aasi11{
-  background-color: #e7ecef !important;
-} */
+.whats-app {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 50px;
+  left: 55px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.my-float {
+  margin-top: 16px;
+}
 
 html {
   overflow-x: hidden;
@@ -645,7 +706,7 @@ a:focus {
     line-height: 70px;
   }
 
-  
+
 }
 
 
@@ -729,9 +790,11 @@ a:focus {
 .feature-item h4 {
   color: #223a66;
 }
-.feature-item h4 a span{
+
+.feature-item h4 a span {
   color: #223a66 !important;
 }
+
 .feature-item p {
   font-size: 14px;
 }
@@ -1025,6 +1088,10 @@ a:focus {
 }
 
 .testimonial-wrap-2 .slick-dots {
+  margin-left: -10px;
+}
+
+.testimonial-wrap-3 .slick-dots {
   margin-left: -10px;
 }
 

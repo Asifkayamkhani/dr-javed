@@ -7,21 +7,6 @@ use App\Models\Banner;
 
 class BannerController extends Controller
 {
-   public function bannerus(){
-    return view('backend.banner.bannerus');
-   }
-   public function save_banner(Request $request){
-    $data=$request->all();
-    if ($request->file('image')) {
-        $file=$request->file('image');
-        $file_name=date('YmdHi').$file->getClientOriginalName();
-        $file->move(public_path('uploades'),$file_name);
-        $data['image']=$file_name;
-    }
-    $form=Banner::create($data);
-    return redirect('banner-table');
-   }
-
    public function b_table(){
     $data=Banner::all();
     return view('backend.banner.banner_table',compact('data'));
@@ -38,11 +23,7 @@ class BannerController extends Controller
     return redirect('banner-table');
    }
 
-   public function b_delete($id){
-    $data=Banner::find($id);
-    $data->delete();
-    return redirect('banner-table');
-   }
+
 
    public function b_edit($id){
     $data=Banner::find($id);
@@ -63,6 +44,4 @@ class BannerController extends Controller
     $data->update();
     return redirect('banner-table');
 }
-
-
 }

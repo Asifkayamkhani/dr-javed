@@ -5,27 +5,26 @@
 
 
 <!-- Slider Start -->
+@foreach($banner as $val)
 <section class="banner">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-6 col-md-12 col-xl-7">
-                <div class="block">
-                    <div class="divider mb-3"></div>
-                    <span class="text-uppercase text-sm letter-spacing ">Got Best Pain Clinic in India Award</span>
-                    <h1 class="mb-3 mt-3">Your most trusted health partner</h1>
+    <div class="row">
+        <div class="col-lg-6 col-md-12 col-xl-7">
+            <div class="block">
+                <div class="divider mb-3"></div>
+                <span class="text-uppercase text-sm letter-spacing ">Got Best Pain Clinic in India Award</span>
+                <h1 class="mb-3 mt-3">{{$val->name}}</h1>
 
-                    <p class="mb-4 pr-5">KMAPMC is a pain management clinic and hospital in Jaipur that received the
-                        "Best Pain Clinic" in India award from the Indian chapter of the International Association
-                        of Pain and the “Excellence in Pain Practice” award by the World Institute of Pain first…
-                    </p>
-                    <div class="btn-container ">
-                        <a href="{{url('Appointment')}}" target="_blank"
-                            class="btn btn-main-2 btn-icon btn-round-full">Make
-                            appointment <i class="icofont-simple-right ml-2  "></i></a>
-                    </div>
+                <p class="mb-4 pr-5">{{$val->describtion}}
+                </p>
+                <div class="btn-container ">
+                    <a href="{{url('Appointment')}}" target="_blank" class="btn btn-main-2 btn-icon btn-round-full">Make
+                        appointment <i class="icofont-simple-right ml-2  "></i></a>
                 </div>
             </div>
         </div>
+        @endforeach
+    </div>
     </div>
 </section>
 <section class="features">
@@ -149,34 +148,34 @@
                 <div class="section-title">
                     <h2>Our Services</h2>
                     <div class="divider mx-auto "></div>
-                    <!-- <p>Lets know moreel necessitatibus dolor asperiores illum possimus sint voluptates incidunt
-							molestias nostrum laudantium. Maiores porro cumque quaerat.</p> -->
                 </div>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-lg-12 testimonial-wrap-2">
+            <div class="col-lg-12 testimonial-wrap-3">
                 @foreach($services as $service)
-               <div class="card ml-2 shadow">
-                <div class="testimonial-block style-2  gray-bg">
-                    <div class="service-item mb-4">
-                        <div class="icon d-flex align-items-center">
-                            <img src="{{asset('uploades/'.$service->image)}}" alt="" width="100px">
-                            <h4 class="mt-3 mb-3">{{$service->name}}</h4>
+                <div class="card ml-2 shadow">
+                    <div class="style-2  gray-bg">
+                        <div class="service-item ">
+                            <div class="icon d-flex align-items-center">
+                                <img src="{{asset('uploades/'.$service->image)}}" alt="" width="100px">
+                                <h4 class="mt-3 mb-3">{{$service->name}}</h4>
+                            </div>
+
+                            <div class="content">
+                                <p>{{ \Illuminate\Support\Str::limit($service->describtion,  100,  '...') }}
+                                </p>
+                                <a class="nav-link btn btn-sm btn-danger"
+                                    href="{{url('service/detail/'.$service->id)}}">Read More</a>
+                            </div>
+
+
                         </div>
-
-                        <div class="content">
-                            <p class="mb-4" >{{$service->describtion}}</p>
-                            <a class="nav-link btn btn-sm btn-danger" href="{{url('Appointment')}}">Appointment</a>
-                        </div>
-
-
                     </div>
                 </div>
-               </div>
                 @endforeach
-                
+
             </div>
         </div>
     </div>
@@ -282,7 +281,7 @@
                             <span class="fa fa-star" style="color: gold;"></span>
                         </p>
                         <p>
-                           {{$val->desc}}
+                            {{$val->desc}}
                             <!-- <span class="text-light">
                                 . <br>
                                 . <br>
@@ -318,7 +317,7 @@
             @foreach($data as $val)
             <div class="col-lg-2">
                 <div class="client-thumb">
-                    <img src="{{asset('uploades/'.$val->image)}}"  alt="" class="img-fluid">
+                    <img src="{{asset('uploades/'.$val->image)}}" alt="" class="img-fluid">
                 </div>
             </div>
             @endforeach
