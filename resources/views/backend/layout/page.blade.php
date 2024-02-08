@@ -10,7 +10,7 @@ $name=Auth::user()->name;
 
         <div class="user-panel mt-3 pb-3 mb-3 d-flex">
             <div class="image">
-                <img src="{{asset('uploades/202402071656uncle.jpg')}}" class="img-circle elevation-2" alt="User Image">
+                <img src="{{asset('uploades/202402081107uncle.jpg')}}" class="img-circle elevation-2" alt="User Image">
             </div>
             <div class="info">
                 <a href="#" class="d-block">{{$name}}</a>
