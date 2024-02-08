@@ -121,7 +121,7 @@
 
             <ul class="navbar-nav ml-auto">
 
-                <li class="nav-item d-none d-sm-inline-block">
+                <li class="nav-item ">
                     <a href="{{route('signout')}}" class="nav-link"><i class="fa fa-sign-out" style="color:blue;" aria-hidden="true"></i></a>
                 </li>
 
