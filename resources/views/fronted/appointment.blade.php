@@ -1,7 +1,7 @@
 @extends('fronted.layout.app')
 @section('content')
 @if(session()->has('error'))
-<div class="alert alert-danger">
+<div class="alert alert-danger text-center">
     {{session('error')}}
 </div>
 @endif
