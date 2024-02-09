@@ -4,6 +4,7 @@
     <div class="row">
         <div class="col-sm-3"></div>
         <div class="col-sm-8 mt-5">
+        <h3 class="bg-dark text-ligth text-center p-1">Appointment</h3>
             @if(session()->has('success'))
             <div class="alert alert-info">
                 {{session('success')}}

@@ -8,12 +8,6 @@
                 <div class="block text-center">
                     <span class="text-white">About Us</span>
                     <h1 class="text-capitalize mb-5 text-lg">About Us</h1>
-
-                    <!-- <ul class="list-inline breadcumb-nav">
-            <li class="list-inline-item"><a href="index.html" class="text-white">Home</a></li>
-            <li class="list-inline-item"><span class="text-white">/</span></li>
-            <li class="list-inline-item"><a href="#" class="text-white-50">About Us</a></li>
-          </ul> -->
                 </div>
             </div>
         </div>
@@ -81,38 +75,7 @@
                 </div>
             </div>
             <div class="col-lg-8">
-                <!-- <div class="row">
-						<div class="col-lg-4 col-md-6 col-sm-6">
-							<div class="award-img">
-								<img src="{{asset('fronted/images/gallery1.jpeg')}}" alt="" class="img-fluid">
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6 col-sm-6">
-							<div class="award-img">
-								<img src="{{asset('fronted/images/gallery2.jpeg')}}" alt="" class="img-fluid">
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6 col-sm-6">
-							<div class="award-img">
-								<img src="{{asset('fronted/images/gallery3.jpeg')}}" alt="" class="img-fluid">
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6 col-sm-6">
-							<div class="award-img">
-								<img src="{{asset('fronted/images/gallery4.jpg')}}" alt="" class="img-fluid">
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6 col-sm-6">
-							<div class="award-img">
-								<img src="{{asset('fronted/images/gallery5.jpeg')}}" alt="" class="img-fluid">
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6 col-sm-6">
-							<div class="award-img">
-								<img src="{{asset('fronted/images/gallery6.jpg')}}" alt="" class="img-fluid">
-							</div>
-						</div>
-					</div> -->
+
                 KMAPMC is a pain management clinic and hospital in Jaipur that received the “Best Pain Clinic” in
                 India award from the Indian chapter of the International Association of Pain and the “Excellence in
                 Pain Practice” award by the World Institute of Pain first time in Asia in 2010.
@@ -193,86 +156,5 @@
         </div>
     </div>
 </section>
-<!-- 
-	<section class="section testimonial">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 offset-lg-6">
-					<div class="section-title">
-						<h2 class="mb-4">What they say about us</h2>
-						<div class="divider  my-4"></div>
-					</div>
-				</div>
-			</div>
-			<div class="row align-items-center">
-				<div class="col-lg-6 testimonial-wrap offset-lg-6">
-					<div class="testimonial-block">
-						<div class="client-info ">
-							<h4>Amazing service!</h4>
-							<span>John Partho</span>
-						</div>
-						<p>
-							They provide great service facilty consectetur adipisicing elit. Itaque rem, praesentium,
-							iure, ipsum magnam deleniti a vel eos adipisci suscipit fugit placeat. Quibusdam laboriosam
-							eveniet nostrum nemo commodi numquam quod.
-						</p>
-						<i class="icofont-quote-right"></i>
 
-					</div>
-
-					<div class="testimonial-block">
-						<div class="client-info">
-							<h4>Expert doctors!</h4>
-							<span>Mullar Sarth</span>
-						</div>
-						<p>
-							They provide great service facilty consectetur adipisicing elit. Itaque rem, praesentium,
-							iure, ipsum magnam deleniti a vel eos adipisci suscipit fugit placeat. Quibusdam laboriosam
-							eveniet nostrum nemo commodi numquam quod.
-						</p>
-						<i class="icofont-quote-right"></i>
-					</div>
-
-					<div class="testimonial-block">
-						<div class="client-info">
-							<h4>Good Support!</h4>
-							<span>Kolis Mullar</span>
-						</div>
-						<p>
-							They provide great service facilty consectetur adipisicing elit. Itaque rem, praesentium,
-							iure, ipsum magnam deleniti a vel eos adipisci suscipit fugit placeat. Quibusdam laboriosam
-							eveniet nostrum nemo commodi numquam quod.
-						</p>
-						<i class="icofont-quote-right"></i>
-					</div>
-
-					<div class="testimonial-block">
-						<div class="client-info">
-							<h4>Nice Environment!</h4>
-							<span>Partho Sarothi</span>
-						</div>
-						<p>
-							They provide great service facilty consectetur adipisicing elit. Itaque rem, praesentium,
-							iure, ipsum magnam deleniti a vel eos adipisci suscipit fugit placeat. Quibusdam laboriosam
-							eveniet nostrum nemo commodi numquam quod.
-						</p>
-						<i class="icofont-quote-right"></i>
-					</div>
-
-					<div class="testimonial-block">
-						<div class="client-info">
-							<h4>Modern Service!</h4>
-							<span>Kolis Mullar</span>
-						</div>
-						<p>
-							They provide great service facilty consectetur adipisicing elit. Itaque rem, praesentium,
-							iure, ipsum magnam deleniti a vel eos adipisci suscipit fugit placeat. Quibusdam laboriosam
-							eveniet nostrum nemo commodi numquam quod.
-						</p>
-						<i class="icofont-quote-right"></i>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section> -->
 @endsection

@@ -8,6 +8,8 @@
         </div>
         <div class="col-sm-3"></div>
         <div class="col-sm-9 mt-3">
+        <h3 class="bg-dark text-ligth text-center p-1">Testimonial</h3>
+
             @if(session()->has('success'))
             <div class="alert alert-info">
                 {{session('success')}}

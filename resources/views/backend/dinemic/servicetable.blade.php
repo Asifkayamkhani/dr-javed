@@ -9,9 +9,10 @@
 
         <div class="col-sm-2"></div>
         <div class="col-sm-10 mt-3">
+            <h3 class="bg-dark text-ligth text-center p-1">Services</h3>
             <div class="text-center">
                 @if(session()->has('success'))
-                <div class="alert alert-dark">
+                <div class="alert alert-info">
                     {{session('success')}}
                 </div>
                 @endif
@@ -52,7 +53,8 @@
                                 @endif
                             </td>
                             <td class="d-flex">
-                                <p data-id="{{url('delete-services/'.$val->id)}}" class="btn btn-sm btn-danger delete">Delete</p>
+                                <p data-id="{{url('delete-services/'.$val->id)}}" class="btn btn-sm btn-danger delete">
+                                    Delete</p>
                                 <p>
                                     <a href="{{url('services-edit/'.$val->id)}}"
                                         class="btn btn-sm btn-secondary ml-2">Edit</a>
@@ -65,7 +67,6 @@
                 </table>
             </div>
         </div>
-        <!-- <div class="col-sm-1"></div> -->
     </div>
 </div>
 

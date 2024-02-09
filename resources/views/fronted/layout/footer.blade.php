@@ -81,12 +81,8 @@
 	        <div class="footer-btm py-2">
 	            <div class="row align-items-center justify-content-between">
 	                <div class="col-lg-6">
-	                    <!-- <div class="copyright">
-							&copy; Copyright @2023 Reserved to <span class="text-color">KMAPMC</span> by <a
-								href="https://themefisher.com/" target="_blank">Themefisher</a>
-						</div> -->
 	                    <div class="copyright">
-	                        Copyright © 2023 <a href="KM-Advanced.Pain.And.Management.com/" target="_blank">KMAPMC</a> -
+	                        Copyright © 2023 <a href="https://codenact.com/" target="_blank">Codenact</a> -
 	                        All Rights Reserved.
 	                    </div>
 	                </div>
@@ -102,19 +98,13 @@
 	            </div>
 	        </div>
 	    </div>
-
-	    <!-- <div class="col-lg-12">
-			<div class="copyright text-lg-center">
-				Distributed by <a href="https://themewagon.com/" target="_blank">Themewagon</a>
-			</div>
-		</div> -->
 	</footer>
 
 
 
 
 
-	<a class="whats-app" href="https://api.whatsapp.com/send?phone=9587858315" target="_blank">
+	<a class="whats-app" href="https://api.whatsapp.com/send?phone=9587858315&text=hello!" target="_blank">
 	    <i class="fa fa-whatsapp my-float"></i>
 	</a>
 
@@ -147,7 +137,4 @@
 
 
 	</body>
-
-	<!-- Mirrored from technext.github.io/novena/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 25 Jan 2024 14:15:43 GMT -->
-
 	</html>

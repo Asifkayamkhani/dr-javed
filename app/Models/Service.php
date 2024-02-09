@@ -13,7 +13,7 @@ class Service extends Model
         'describtion',
         'details',
         'image',
-        'status'
+        'status',
         
     ];
 

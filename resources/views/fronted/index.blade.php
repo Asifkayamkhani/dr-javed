@@ -1,32 +1,39 @@
 @extends('fronted.layout.app')
 @section('content')
 
+@if(session()->has('error'))
+<div class="alert alert-danger text-center">
+    {{session('error')}}
+</div>
+@endif
 
-
-
-<!-- Slider Start -->
+<!-- banner start  -->
 @foreach($banner as $val)
-<section class="banner">
+<section class="banner" style="background-image:url({{asset('uploades/'.$val->image)}})" width="1920px" hieght="900px">
     <div class="container">
-    <div class="row">
-        <div class="col-lg-6 col-md-12 col-xl-7">
-            <div class="block">
-                <div class="divider mb-3"></div>
-                <span class="text-uppercase text-sm letter-spacing ">Got Best Pain Clinic in India Award</span>
-                <h1 class="mb-3 mt-3">{{$val->name}}</h1>
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-xl-7">
+                <div class="block">
+                    <div class="divider mb-3"></div>
+                    <span class="text-uppercase text-sm letter-spacing ">Got Best Pain Clinic in India Award</span>
+                    <h1 class="mb-3 mt-3">{{$val->name}}</h1>
 
-                <p class="mb-4 pr-5">{{$val->describtion}}
-                </p>
-                <div class="btn-container ">
-                    <a href="{{url('Appointment')}}" target="_blank" class="btn btn-main-2 btn-icon btn-round-full">Make
-                        appointment <i class="icofont-simple-right ml-2  "></i></a>
+                    <p class="mb-4 pr-5">{{$val->describtion}}
+                    </p>
+                    <div class="btn-container ">
+                        <a href="{{url('Appointment')}}" target="_blank"
+                            class="btn btn-main-2 btn-icon btn-round-full">Make
+                            appointment <i class="icofont-simple-right ml-2  "></i></a>
+                    </div>
                 </div>
             </div>
+            @endforeach
         </div>
-        @endforeach
-    </div>
     </div>
 </section>
+<!-- banner complete  -->
+
+<!-- card for appointment and details for clinick start  -->
 <section class="features">
     <div class="container">
         <div class="row">
@@ -75,8 +82,9 @@
         </div>
     </div>
 </section>
+<!-- card for appointment and details for clinick complete  -->
 
-
+<!-- image and service information start  -->
 <section class="section about">
     <div class="container">
         <div class="row align-items-center">
@@ -104,6 +112,9 @@
         </div>
     </div>
 </section>
+<!-- image and service information complete  -->
+
+<!-- happy people and etc.. counting start  -->
 <section class="cta-section ">
     <div class="container">
         <div class="cta position-relative">
@@ -141,6 +152,9 @@
         </div>
     </div>
 </section>
+<!-- happy people and etc.. counting complete  -->
+
+<!-- services details start and read more start  -->
 <section class="section service gray-bg">
     <div class="container">
         <div class="row justify-content-center">
@@ -181,6 +195,9 @@
     </div>
     </div>
 </section>
+<!-- services details start and read more complete -->
+
+ <!-- dr image and book appointment  start  -->
 <section class="section appointment">
     <div class="container">
         <div class="row align-items-center">
@@ -201,11 +218,7 @@
                         velit . Iste dolorum atque similique praesentium soluta.</p>
                     <form id="#" class="appointment-form" method="post" action="{{url('Appointment')}}">
                         @csrf
-                        @if(session()->has('error'))
-                        <div class="alert alert-danger">
-                            {{session('error')}}
-                        </div>
-                        @endif
+
                         <div class="row">
 
                             <div class="col-lg-6">
@@ -250,6 +263,9 @@
         </div>
     </div>
 </section>
+<!-- dr image and book appointment  complete  -->
+
+<!-- google review start  -->
 <section class="section testimonial-2 gray-bg">
     <div class="container">
         <div class="row justify-content-center">
@@ -282,13 +298,6 @@
                         </p>
                         <p>
                             {{$val->desc}}
-                            <!-- <span class="text-light">
-                                . <br>
-                                . <br>
-                                . <br>
-
-
-                            </span> -->
                         </p>
                     </div>
                 </div>
@@ -297,16 +306,16 @@
         </div>
     </div>
 </section>
+<!-- google review complete  -->
+
+<!-- gallery slider start  -->
 <section class="section clients">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-7">
                 <div class="section-title text-center">
                     <h2>Gallery</h2>
-                    <!-- <h2>Partners who support us</h2> -->
                     <div class="divider mx-auto"></div>
-                    <!-- <p>Lets know moreel necessitatibus dolor asperiores illum possimus sint voluptates incidunt
-							molestias nostrum laudantium. Maiores porro cumque quaerat.</p> -->
                 </div>
             </div>
         </div>
@@ -317,7 +326,8 @@
             @foreach($data as $val)
             <div class="col-lg-2">
                 <div class="client-thumb">
-                    <img src="{{asset('uploades/'.$val->image)}}" alt="" class="img-fluid">
+                    <img src="{{asset('uploades/'.$val->image)}}" alt="" class="img-fluid"
+                        style=" height:163px !important; width=:163px !important;">
                 </div>
             </div>
             @endforeach
@@ -325,4 +335,6 @@
         </div>
     </div>
 </section>
+<!-- gallery slider complete  -->
+
 @endsection

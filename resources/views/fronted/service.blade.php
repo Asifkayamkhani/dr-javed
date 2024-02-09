@@ -9,11 +9,6 @@
                     <span class="text-white">Our services</span>
                     <h1 class="text-capitalize mb-5 text-lg">What We Do</h1>
 
-                    <!-- <ul class="list-inline breadcumb-nav">
-            <li class="list-inline-item"><a href="index.html" class="text-white">Home</a></li>
-            <li class="list-inline-item"><span class="text-white">/</span></li>
-            <li class="list-inline-item"><a href="#" class="text-white-50">Our services</a></li>
-          </ul> -->
                 </div>
             </div>
         </div>
@@ -30,16 +25,18 @@
                     <img src="{{asset('uploades/'.$val->image)}}" alt="" class="img-fluid">
                     <div class="content">
                         <h4 class="mt-4 mb-2 title-color">{{$val->name}}</h4>
-                        <p class="mt-4 mb-2 title-color">{{illuminate\Support\Str::limit($val->describtion,100,'...')}}</p>
-                        <a href="{{url('service/detail/'.$val->id)}}" class="nav-link btn btn-sm btn-danger">Read More</a>
-                        
+                        <p class="mt-4 mb-2 title-color">{{illuminate\Support\Str::limit($val->describtion,100,'...')}}
+                        </p>
+                        <a href="{{url('service/detail/'.$val->id)}}" class="nav-link btn btn-sm btn-danger">Read
+                            More</a>
+
                     </div>
                 </div>
             </div>
             @endforeach
 
-           
-           
+
+
         </div>
     </div>
 </section>

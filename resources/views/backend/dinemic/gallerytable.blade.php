@@ -9,9 +9,10 @@
 
         <div class="col-sm-2"></div>
         <div class="col-sm-10 mt-3">
+            <h3 class="bg-dark text-ligth text-center p-1">Gallery</h3>
             <div class="text-center">
                 @if(session()->has('success'))
-                <div class="alert alert-dark">
+                <div class="alert alert-info">
                     {{session('success')}}
                 </div>
                 @endif
@@ -25,7 +26,7 @@
                             <th>Images</th>
                             <th>Status</th>
                             <th>Action</th>
-    
+
                         </tr>
                     </thead>
                     <tbody>
@@ -36,13 +37,13 @@
                         <tr>
                             <td>{{$i++}}</td>
                             <td>
-                               @if($val->type == 1)
-                               <img src="{{asset('uploades/'.$val->image)}}" width="100px" alt="">
-                               @else
-                              <video width="100px" controls>
-                                <source src="{{asset('uploades/'.$val->image)}}" type="video/mp4">
-                              </video>
-                               @endif
+                                @if($val->type == 1)
+                                <img src="{{asset('uploades/'.$val->image)}}" width="100px" hieght="100px" alt="">
+                                @else
+                                <video width="100px" controls>
+                                    <source src="{{asset('uploades/'.$val->image)}}" type="video/mp4">
+                                </video>
+                                @endif
                             </td>
                             <td>
                                 @if($val->status==1)
@@ -52,20 +53,20 @@
                                 @endif
                             </td>
                             <td class="d-flex">
-                                <p data-id="{{url('delete-gallery/'.$val->id)}}" class="btn btn-sm btn-danger delete">Delete</p>
+                                <p data-id="{{url('delete-gallery/'.$val->id)}}" class="btn btn-sm btn-danger delete">
+                                    Delete</p>
                                 <p>
                                     <a href="{{url('gallery-edit/'.$val->id)}}"
                                         class="btn btn-sm btn-secondary ml-2">Edit</a>
                                 </p>
                             </td>
-    
+
                         </tr>
                         @endforeach
                     </tbody>
                 </table>
             </div>
         </div>
-        <!-- <div class="col-sm-1"></div> -->
     </div>
 </div>
 

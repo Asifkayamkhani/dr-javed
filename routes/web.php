@@ -20,11 +20,6 @@ use App\Http\Controllers\TestimonialController;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-
-
 // fronted page show web 
 Route::get('/',[FrontedController::class,'home']);
 Route::get('About',[FrontedController::class,'about']);

@@ -6,6 +6,7 @@
 
         <div class="col-sm-2"></div>
         <div class="col-sm-10 mt-3">
+        <h3 class="bg-dark text-ligth text-center p-1">Banner</h3>
 
             <div class="table-responsive">
                 <table class="table  table-striped table-bordered" style="width:100%" id="example">
@@ -53,7 +54,6 @@
                 </table>
             </div>
         </div>
-        <!-- <div class="col-sm-1"></div> -->
     </div>
 </div>
 

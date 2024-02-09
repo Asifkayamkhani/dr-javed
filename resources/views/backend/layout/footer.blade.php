@@ -1,10 +1,4 @@
-<!-- <footer class="main-footer">
-      <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io/">AdminLTE.io</a>.</strong>
-      All rights reserved.
-      <div class="float-right d-none d-sm-inline-block">
-        <b>Version</b> 3.2.0
-      </div>
-    </footer> -->
+
 
 <aside class="control-sidebar control-sidebar-dark">
 
@@ -48,7 +42,7 @@ $.widget.bridge('uibutton', $.ui.button)
 <script src="{{asset('assets/dist/js/pages/dashboard.js')}}"></script>
 </body>
 
-<!-- Mirrored from adminlte.io/themes/v3/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 02 Feb 2024 15:52:24 GMT -->
+
 
 </html>
 
@@ -69,7 +63,6 @@ $(document).ready(function() {
 <script>
 $(document).ready(function() {
     $('.delete').click(function() {
-        // let titl = $(this).attr("data-id");
         let titl = $(this).attr("data-id");
         Swal.fire({
             title: "Are you sure?",

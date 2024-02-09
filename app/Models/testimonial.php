@@ -11,6 +11,6 @@ class testimonial extends Model
     protected $fillable=[
         'name',
         'desc',
-        'status'
+        'status',
     ];
 }
