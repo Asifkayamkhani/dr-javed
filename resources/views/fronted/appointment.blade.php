@@ -1,5 +1,11 @@
 @extends('fronted.layout.app')
 @section('content')
+@if(session()->has('error'))
+<div class="alert alert-danger">
+    {{session('error')}}
+</div>
+@endif
+
 <section class="page-title bg-1">
     <div class="overlay"></div>
     <div class="container">
@@ -8,7 +14,7 @@
                 <div class="block text-center">
                     <span class="text-white">Book your Seat</span>
                     <h1 class="text-capitalize mb-5 text-lg">Appointment</h1>
-                 
+
                 </div>
             </div>
         </div>
@@ -34,12 +40,6 @@
 
                 <div class="appointment-wrap mt-5 mt-lg-0 pl-lg-5">
                     <h2 class="mb-2 title-color">Book an appointment</h2>
-                    @if(session()->has('error'))
-                    <div class="alert alert-danger">
-                        {{session('error')}}
-                    </div>
-                    @endif
-
                     <form id="#" class="appointment-form" method="post" action="#">
                         @csrf
                         <div class="row">
