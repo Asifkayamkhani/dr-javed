@@ -100,7 +100,11 @@
 	    </div>
 	</footer>
 
-
+<style>
+	.displynone{
+		display:none !important;
+	}
+</style>
 
 
 
@@ -134,7 +138,13 @@
 	<script src="{{asset('fronted/js/script.js')}}"></script>
 	<script src="{{asset('fronted/js/contact.js')}}"></script>
 
-
+<script>
+	$(document).ready(function(){
+		setTimeout(() => {
+			$('.alert').addClass('displynone');
+		}, 2000);
+	});
+</script>
 
 	</body>
 	</html>
