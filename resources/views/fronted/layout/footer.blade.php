@@ -64,7 +64,7 @@
 	                            <i class="icofont-email mr-3"></i>
 	                            <span class="h6 mb-0">Support Available for 24/7</span>
 	                        </div>
-	                        <h4 class="mt-2"><a href="mailto:asifkhannimbbi@gmail.com">Support@email.com</a></h4>
+	                        <h4 class="mt-2"><a href="mailto:Kmadvpain@gmail.com">Kmadvpain@gmail.com</a></h4>
 	                    </div>
 
 	                    <div class="footer-contact-block">
@@ -72,7 +72,7 @@
 	                            <i class="icofont-support mr-3"></i>
 	                            <span class="h6 mb-0">Mon to Sat : 08:00AM - 10:00PM</span>
 	                        </div>
-	                        <h4 class="mt-2"><a href="tel:+919587858315">+919587858315</a></h4>
+	                        <h4 class="mt-2"><a href="tel:+919983349786">+919983349786</a></h4>
 	                    </div>
 	                </div>
 	            </div>

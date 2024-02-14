@@ -22,18 +22,22 @@
             <div class="col-lg-4 col-sm-6 col-md-6">
                 <div class="contact-block mb-4 mb-lg-0">
                     <i class="icofont-live-support"></i>
-                    <a href="tel:+919587858315">
-                        <h5>Call Us</h5>
-                        9587858315
+                    <h5>Call Us</h5>
+                    <a href="tel:+919983349786">
+
+                        <span class="h4">+919983349786</span>
+                    </a>
+                    <a href="tel:+919983033332">
+                        <span class="h4">+919983033332</span>
                     </a>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6 col-md-6">
                 <div class="contact-block mb-4 mb-lg-0">
                     <i class="icofont-support-faq"></i>
-                    <a href="mailto:asifkhannimbbi@gmail.com">
+                    <a href="mailto:Kmadvpain@gmail.com">
                         <h5>Email Us</h5>
-                        support@mail.com
+                        Kmadvpain@gmail.com
                     </a>
                 </div>
             </div>
@@ -42,7 +46,7 @@
                     <i class="icofont-location-pin"></i>
                     <a href="https://maps.app.goo.gl/TFPtWuo1KYPrwemo6">
                         <h5>Location</h5>
-                        Address Near Boring Road
+                        Clinik Location
                     </a>
 
                 </div>

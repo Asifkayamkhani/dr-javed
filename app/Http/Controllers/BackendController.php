@@ -39,7 +39,7 @@ class BackendController extends Controller
       
   ];
    
-  Mail::to('asifkhannimbbi@gmail.com')->send(new DemoMail($mailData));
+  Mail::to('Kmadvpain@gmail.com')->send(new DemoMail($mailData));
     return redirect('Confirmation');
   }
     // Contact Details submit on email 
@@ -54,7 +54,7 @@ class BackendController extends Controller
       'number'=> $request->number,
       'message'=> $request->message
   ];
-    Mail::to('asifkhannimbbi@gmail.com')->send(new ContactMail($mailData));
+    Mail::to('Kmadvpain@gmail.com')->send(new ContactMail($mailData));
     session()->flash('success','Your Details Send Successfully');
     return back();
 }

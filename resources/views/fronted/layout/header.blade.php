@@ -33,18 +33,18 @@
                 <div class="row align-items-center ">
                     <div class="col-lg-6">
                         <ul class="top-bar-info list-inline-item pl-0 mb-0">
-                            <li class="list-inline-item"><a href="mailto:asifkhannimbbi@gmail.com"><i
-                                        class="icofont-support-faq mr-2"></i>support@novena.com</a></li>
+                            <li class="list-inline-item"><a href="mailto:Kmadvpain@gmail.com"><i
+                                        class="icofont-support-faq mr-2"></i>Kmadvpain@gmail.com</a></li>
                             <li class="list-inline-item"><a href="https://maps.app.goo.gl/TFPtWuo1KYPrwemo6"><i
-                                        class="icofont-location-pin mr-2"></i>Address Inside Boring Choraya </a>
+                                        class="icofont-location-pin mr-2"></i>Clinik Location</a>
                             </li>
                         </ul>
                     </div>
                     <div class="col-lg-6">
                         <div class="text-lg-right top-right-bar mt-2 mt-lg-0">
-                            <a href="tel:9587858315">
-                                <span>Call Now : </span>
-                                <span class="h4">+9587858315</span>
+                            <a href="tel:+919983349786">
+                                <span><i class="fa fa-phone" aria-hidden="true" style="font-size:20px; "></i> </span>
+                                <span class="h4">+919983349786</span>
                             </a>
                         </div>
                     </div>
@@ -53,7 +53,7 @@
         </div>
         <nav class="navbar navbar-expand-lg navigation aasi11" id="navbar">
             <div class="container">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="{{url('/')}}">
                     <img src="{{asset('fronted/images/logo.png')}}" width="150px" alt="" class="img-fluid">
                 </a>
 

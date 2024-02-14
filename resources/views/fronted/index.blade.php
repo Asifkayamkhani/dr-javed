@@ -70,8 +70,11 @@
                         </div>
                         <span>Emergency Cases</span>
                         <h4 class="mb-3">
-                            <a href="tel:9587858315">
-                                <span class="h4">+9587858315</span>
+                            <a href="tel:+919983349786">
+                                <span class="h4">+919983349786</span>
+                            </a>
+                            <a href="tel:+919983033332">
+                                <span class="h4">+919983033332</span>
                             </a>
                         </h4>
                         <p>Get ALL time support for emergency.We have introduced the principle of family
@@ -205,8 +208,8 @@
                 <div class="appoinment-content">
                     <img src="{{asset('fronted/images/dr1.jpg')}}" alt="" class="img-fluid">
                     <div class="emergency">
-                        <a href="tel:9587858315">
-                            <h2 class="text-lg"><i class="icofont-phone-circle text-lg"></i>+95 878 58315</h2>
+                        <a href="tel:+919983349789">
+                            <h2 class="text-lg"><i class="icofont-phone-circle text-lg"></i>+99 833 49789</h2>
                         </a>
                     </div>
                 </div>
