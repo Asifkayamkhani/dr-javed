@@ -18,6 +18,12 @@ class ServiceController extends Controller
             $file->move(public_path('uploades'),$file_name);
             $data['image']=$file_name;
         }
+        if ($request->file('video')) {
+            $file=$request->file('video');
+            $file_name=date('YmdHi').$file-> getClientOriginalName();
+            $file->move(public_path('uploades'),$file_name);
+            $data['video']=$file_name;
+        }
         $form=Service::create($data);
         return redirect('services-table');
     }
@@ -59,6 +65,15 @@ class ServiceController extends Controller
             $data['image']=$file_name;
         }else {
             $data['image']=$request->img;
+        }
+
+        if ($request->file('video')) {
+            $file=$request->file('video');
+            $file_name=date('YmdHi').$file-> getClientOriginalName();
+            $file->move(public_path('uploades'),$file_name);
+            $data['video']=$file_name;
+        }else {
+            $data['video']=$request->img;
         }
         $data->status=$request->status;
         $data->update();

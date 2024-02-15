@@ -27,6 +27,7 @@
                             <th>Describtion</th>
                             <th>Service Details</th>
                             <th>Images</th>
+                            <th>Video</th>
                             <th>Status</th>
                             <th>Action</th>
 
@@ -44,6 +45,11 @@
                             <td>{{$val->details}}</td>
                             <td>
                                 <img src="{{asset('uploades/'.$val->image)}}" width="100px" alt="">
+                            </td>
+                            <td>
+                            <video width="100px" controls>
+                                <source src="{{asset('uploades/'.$val->video)}}" type="video/mp4">
+                            </video>
                             </td>
                             <td>
                                 @if($val->status==1)

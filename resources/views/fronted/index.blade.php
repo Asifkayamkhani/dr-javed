@@ -57,10 +57,19 @@
                         <span>Timing schedule</span>
                         <h4 class="mb-3">Working Hours</h4>
                         <ul class="w-hours list-unstyled">
-                            <li class="d-flex justify-content-between">Mon - Sat : <span>8:00AM - 12:00PM</span>
+                            <li style="font-weight:600; color:#223a66; font-size:20px;">Monday to Saturday :
+
+                            </li>
+                            <li class="">
+                                <span style="font-weight:600; color:#223a66;    ">Morning Time : 8:00AM - 11:00AM</span>
+                                <span style="font-weight:600; color:#223a66;">Evening Time : 5:00PM - 07:00PM</span>
                             </li>
 
-                            <li class="d-flex justify-content-between">Sun : <span>Closed</span></li>
+                            <li style="font-weight:600; color:#223a66; font-size:20px;">Sunday : Closed
+
+                            </li>
+
+
                         </ul>
                     </div>
 
@@ -200,7 +209,7 @@
 </section>
 <!-- services details start and read more complete -->
 
- <!-- dr image and book appointment  start  -->
+<!-- dr image and book appointment  start  -->
 <section class="section appointment">
     <div class="container">
         <div class="row align-items-center">

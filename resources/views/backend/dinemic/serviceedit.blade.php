@@ -37,6 +37,12 @@
                                 <input type="hidden" name="img" value="{{$data->image}}" class="form-control" id="">   
                             </div>
                             <div class="col-sm-12 mt-3">
+                                <label for="">Video</label>
+                                <input type="file" name="video" value="{{$data->video}}" class="form-control" id="">
+                                <img src="{{asset('uploades/'.$data->video)}}" alt="" width="100px">     
+                                <input type="hidden" name="img" value="{{$data->video}}" class="form-control" id="">   
+                            </div>
+                            <div class="col-sm-12 mt-3">
                                 <label for="">Status</label>
                                 <select name="status" class="form-control" id="">
                                     <option value="" selected disabled>Select Your Status</option>

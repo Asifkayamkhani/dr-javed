@@ -13,6 +13,7 @@ class Service extends Model
         'describtion',
         'details',
         'image',
+        'video',
         'status',
         
     ];

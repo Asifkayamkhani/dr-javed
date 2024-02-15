@@ -30,8 +30,8 @@
                         <i class="icofont-support text-lg"></i>
                     </div>
                     <span class="h3">Call for an Emergency Service!</span>
-                    <a href="tel:+919587858315">
-                        <h2 class="text-color mt-3">9587858315 </h2>
+                    <a href="tel:+919983349786">
+                        <h2 class="text-color mt-3">9983349786 </h2>
                     </a>
                 </div>
             </div>

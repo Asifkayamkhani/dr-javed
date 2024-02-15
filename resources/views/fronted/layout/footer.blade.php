@@ -72,7 +72,10 @@
 	                            <i class="icofont-support mr-3"></i>
 	                            <span class="h6 mb-0">Mon to Sat : 08:00AM - 10:00PM</span>
 	                        </div>
-	                        <h4 class="mt-2"><a href="tel:+919983349786">+919983349786</a></h4>
+	                        <h4 class="mt-2">
+	                            <a href="tel:+919983349786">+919983349786</a>
+	                            <a href="tel:+919983033332">+919983033332</a>
+	                        </h4>
 	                    </div>
 	                </div>
 	            </div>
@@ -100,11 +103,11 @@
 	    </div>
 	</footer>
 
-<style>
-	.displynone{
-		display:none !important;
-	}
-</style>
+	<style>
+.displynone {
+    display: none !important;
+}
+	</style>
 
 
 
@@ -138,13 +141,14 @@
 	<script src="{{asset('fronted/js/script.js')}}"></script>
 	<script src="{{asset('fronted/js/contact.js')}}"></script>
 
-<script>
-	$(document).ready(function(){
-		setTimeout(() => {
-			$('.alert').addClass('displynone');
-		}, 2000);
-	});
-</script>
+	<script>
+$(document).ready(function() {
+    setTimeout(() => {
+        $('.alert').addClass('displynone');
+    }, 2000);
+});
+	</script>
 
 	</body>
+
 	</html>

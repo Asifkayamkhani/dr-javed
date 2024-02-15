@@ -35,6 +35,10 @@
                                 <input type="file" name="image" class="form-control" id="" required>
                             </div>
                             <div class="col-sm-12 mt-3">
+                                <label for="">Video</label>
+                                <input type="file" name="video" class="form-control" id="" required>
+                            </div>
+                            <div class="col-sm-12 mt-3">
                                 <label for="">Status</label>
                                 <select name="status" class="form-control" id="" required>
                                     <option value="" selected disabled>Select Your Status</option>
